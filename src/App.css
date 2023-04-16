@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  
+}
+
+.App p {
+  font-size: 20px;
+}
+
+.messages-list {
+  width: 50%;
+  margin: 0 auto;
+  list-style: none;
+  overflow: auto;
+  text-align: center;
+  margin: auto;
+  height: 100vh;
+  padding: 0;
+}
+
+
+.messages-list li {
+  text-align: left;
+  margin: 8px 0;
+  padding: 8px;
+  border: 1px solid rgb(53, 154, 53);
+  /* border-radius: 16px; */
+}
+
+.messages-list span:last-of-type {
+  margin-left: 4px;
+  color: red;
+}
+
+
+
